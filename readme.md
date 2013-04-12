@@ -1,3 +1,7 @@
+# This fork does not destroy translations when the parent object "destroy" method is called.
+This is useful for translated models that have a soft deletion implementation where translations
+should never be deleted
+
 # Globalize3 [![Build Status](https://travis-ci.org/svenfuchs/globalize3.png?branch=master)](https://travis-ci.org/svenfuchs/globalize3)
 
 Globalize3 is the successor of Globalize for Rails and is targeted at
